@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "coding"
+version = "0.1.0"
+description = ""
+authors = ["Nurbakyt Madibek <madibek.n@chocolife.kz>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipython = "^7.26.0"
+aiohttp = "^3.7.4"
+aiofiles = "^0.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
